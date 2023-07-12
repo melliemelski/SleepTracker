@@ -14,6 +14,7 @@
 		FFDECA6A2A5DFD8000495AA9 /* SleepTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDECA692A5DFD8000495AA9 /* SleepTrackerTests.swift */; };
 		FFDECA742A5DFD8000495AA9 /* SleepTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDECA732A5DFD8000495AA9 /* SleepTrackerUITests.swift */; };
 		FFDECA762A5DFD8000495AA9 /* SleepTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDECA752A5DFD8000495AA9 /* SleepTrackerUITestsLaunchTests.swift */; };
+		FFDECAFE2A5F464300495AA9 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FFDECAFD2A5F464300495AA9 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		FFDECA6F2A5DFD8000495AA9 /* SleepTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFDECA732A5DFD8000495AA9 /* SleepTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTrackerUITests.swift; sourceTree = "<group>"; };
 		FFDECA752A5DFD8000495AA9 /* SleepTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FFDECAFD2A5F464300495AA9 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				FFDECA582A5DFD7F00495AA9 /* SleepTrackerApp.swift */,
 				FFDECA5A2A5DFD7F00495AA9 /* ContentView.swift */,
+				FFDECAFD2A5F464300495AA9 /* SleepCalculator.mlmodel */,
 				FFDECA5C2A5DFD8000495AA9 /* Assets.xcassets */,
 				FFDECA5E2A5DFD8000495AA9 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFDECAFE2A5F464300495AA9 /* SleepCalculator.mlmodel in Sources */,
 				FFDECA5B2A5DFD7F00495AA9 /* ContentView.swift in Sources */,
 				FFDECA592A5DFD7F00495AA9 /* SleepTrackerApp.swift in Sources */,
 			);
